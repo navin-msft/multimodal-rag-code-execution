@@ -1,0 +1,54 @@
+wile_e_coyote.md
+2024-01-06
+8 / 12
+7. Graphical Analysis
+Hierarchy of Weapons in Coyote’s Arsenal
+A comprehensive chart detailing the various gadgets and weapons currently in Coyote's arsenal, ranked by
+effectiveness, complexity, and success rate. This analysis helps in identifying gaps and opportunities for
+incorporating Gru's weaponry.
+Weapon
+Effectiveness
+Complexity
+Success Rate
+Giant Catapult
+High
+Medium
+Low
+Rocket Skates
+Medium
+High
+Very Low
+ACME Birdseed Trap
+Low
+Low
+Low
+Disguise Kit
+Low
+Low
+Moderate
+ACME Portable Hole
+High
+High
+Low
+Categories of Past Failed Weapons
+A categorized chart analyzing past weapon failures, focusing on the reasons for their ineffectiveness. This
+critical evaluation will aid in avoiding past mistakes and improving future designs with Gru's expertise.
+Category
+Number of Attempts
+Primary Cause of Failure
+Explosives
+15
+Miscalculation
+Mechanical Traps
+20
+Malfunction
+Disguises
+10
+Recognition by Road Runner
+Direct Pursuit Methods
+25
+Speed Differential
+8. Past Experiences
+Coyote Chasing Road Runner
+An image capturing the classic chase, with Coyote utilizing one of Gru's innovative weapons in pursuit of the
+Road Runner, showcasing the potential effectiveness of the collaboration.
