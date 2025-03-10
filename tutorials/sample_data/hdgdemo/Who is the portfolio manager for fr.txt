@@ -1,0 +1,201 @@
+Who is the portfolio manager for franklin income fund?
+Who is the {fund} manager for {fund}?
+Who is the manager for {fund}?
+Who is the investment manager for {fund}?
+who are part of the portfolio management team of {fund}?
+who are members of portfolio management in this {fund} ?
+when was the {fund} created?
+When was the {fund} incepted?
+what was the {fund} inception date?
+Tell me who manages the {fund} and what's the performance YTD vs the index?
+what's the performance of {fund}?
+Tell me about {fund}
+Names of persons who are a part of portfolio management in this {fund} ?
+I want to know about {fund}
+What were the sector allocations
+What were the main contributors to performance, helped performance, for {fund}?
+What were the contributors to the performance
+what is the performance of the A Share class of the fund
+What is the objective of {fund}?
+What is the investment philosophy of the {fund}?
+what was the capital gains distribution in 2022?
+what is the unique selling proposition of the {fund}?
+what is the ticker for this {fund}?
+What is the sharpe ratio?
+What is the downside capture of the {fund}?
+What is the benchmark for {fund}?
+what is the outlook?
+what does the portfolio commentary say about the {fund} performance?
+what are the weak points of fund?
+what are the returns of the A share class ?
+what are the returns of the fund?
+What are the risks of investing in this {fund}?
+What are the top 10 holdings and what is the turnover?
+what are the top holdings
+What is the turnover of the {fund}?
+What are the asset class returns of this {fund}?
+What are the asset classes in this {fund}?
+what all is there to know about this fund?
+Summarize investment strategy for fund
+How long have they managed the {fund} and what are their credentials?
+How does this performance compare to its index?
+How did the {fund} perform in down markets?
+give the top 10 holdings in a list format
+give the top 10 holdings in bulleted format
+What is the {fund}’s investment objective and strategy?
+What were the key drivers of the {fund}’s performance?
+What are the main risks associated with investing in the {fund}?
+What is the {fund}’s inception date?
+Quote verbatim what the document talks about the outlook for equities
+What are the returns of this {fund} for last 3 years?
+What are the sector allocations of this {fund}?
+Help me with the morning star rating of this {fund}
+What are the {fund}’s views on the economic outlook?
+What are the {fund}’s top sectors in its equity and fixed income portfolios?
+What are the {fund}’s expense ratio and dividend yield?
+What are the drivers that hurt the {fund} performance as per the product commentary?
+What are the {fund}’s top holdings in its equity portfolios?
+Give me more details about the holdings of the {fund}
+What is the {fund}’s turnover rate for the fiscal year?
+Who are the portfolio managers of the {fund} and how many years of experience do they have?
+What are the two benchmarks that the {fund} uses to compare its performance?
+What are the sales charges and expenses for the Advisor Class and Class A shares of the {fund}?
+What are the risk statistics of the {fund} based on the three-year period?
+What are the price to book and price to earnings ratios of the {fund}?
+What is the {fund}’s view on the industrials sector?
+What is the {fund}’s view on the financials sector?
+What was the total return of the {fund} excluding sales charges for the first quarter of 2023?
+Which sector was the leading contributor to the {fund}’s absolute returns in the quarter?
+Which sector was the main detractor from the {fund}’s absolute returns in the quarter?
+What is the {fund}’s unmanaged benchmark and how did it perform in the reporting period?
+What are the {fund}’s fees and expenses?
+How has the {fund} performed in the past and what are the factors that affect its performance?
+What are the {fund}’s holdings and how are they diversified across sectors, industries, and countries?
+What are the {fund}’s portfolio characteristics and how do they compare to its benchmark?
+What are the {fund}’s policies and restrictions regarding redemptions, distributions, and voting rights?
+How does the {fund} manage its liquidity and leverage?
+What are the {fund}’s financial statements and notes and what information do they provide?
+How does the {fund} select and monitor its portfolio companies?
+What are the {fund}’s main competitors and how does it differ from them?
+What are the {fund}’s strengths and weaknesses?
+What are the {fund}’s opportunities and threats?
+What are the {fund}’s future plans and strategies?
+What are the {fund}’s future plans and strategies and how do they reflect the {fund}’s outlook on the market?
+How has the fund performed in the past years?
+What is the credit quality allocation of the {fund}? 
+What are the sales charges and expenses for each share class?
+What should investors know before investing in the {fund}?
+What is the average life of the {fund}'s holdings?
+
+
+
+
+**Prompt [Try this prompt in Copilot for Microsoft 365](https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNll6SmtaVE0zTW1NdE9UazVaaTAwTVdSbUxXRXpZalV0WXpkak5qa3dNRGt5TkdVMWZHTXpOekk0WkRaakxUaGlZamd0TkRCbE5TMDVNV1k0TFRrMk1qWmhZV1k0T0RFd1pYd3lNREkwTFRFd0xUSTRWREV6T2pRMU9qTTFMalk0TXpRMk1ETmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVJpY2hDb3B5IiwicHJvcGVydGllcyI6eyJwcm9tcHRTb3VyY2UiOiJ1c2VyIiwiY2xpY2tUaW1lc3RhbXAiOiIyMDI0LTEwLTI4VDEzOjQ1OjQwLjE2NVoifSwidmVyc2lvbiI6MS4xfQ)**
+take this list of questions and create different categories for index that I can create in Azure AI Search. Who is the portfolio manager for franklin income fund? Who is the {fund} manager for {fund}? Who is the manager for {fund}? Who is the investment manager for {fund}? who are part of the portfolio management team of {fund}? who are members of portfolio management in this {fund} ? when was the {fund} created? When was the {fund} incepted? what was the {fund} inception date? Tell me who manages the {fund} and what's the performance YTD vs the index? what's the performance of {fund}? Tell me about {fund} Names of persons who are a part of portfolio management in this {fund} ? I want to know about {fund} What were the sector allocations What were the main contributors to performance, helped performance, for {fund}? What were the contributors to the performance what is the performance of the A Share class of the fund What is the objective of {fund}? What is the investment philosophy of the {fund}? what was the capital gains distribution in 2022? what is the unique selling proposition of the {fund}? what is the ticker for this {fund}? What is the sharpe ratio? What is the downside capture of the {fund}? What is the benchmark for {fund}? what is the outlook? what does the portfolio commentary say about the {fund} performance? what are the weak points of fund? what are the returns of the A share class ? what are the returns of the fund? What are the risks of investing in this {fund}? What are the top 10 holdings and what is the turnover? what are the top holdings What is the turnover of the {fund}? What are the asset class returns of this {fund}? What are the asset classes in this {fund}? what all is there to know about this fund? Summarize investment strategy for fund How long have they managed the {fund} and what are their credentials? How does this performance compare to its index? How did the {fund} perform in down markets? give the top 10 holdings in a list format give the top 10 holdings in bulleted format What is the {fund}’s investment objective and strategy? What were the key drivers of the {fund}’s performance? What are the main risks associated with investing in the {fund}? What is the {fund}’s inception date? Quote verbatim what the document talks about the outlook for equities What are the returns of this {fund} for last 3 years? What are the sector allocations of this {fund}? Help me with the morning star rating of this {fund} What are the {fund}’s views on the economic outlook? What are the {fund}’s top sectors in its equity and fixed income portfolios? What are the {fund}’s expense ratio and dividend yield? What are the drivers that hurt the {fund} performance as per the product commentary? What are the {fund}’s top holdings in its equity portfolios? Give me more details about the holdings of the {fund} What is the {fund}’s turnover rate for the fiscal year? Who are the portfolio managers of the {fund} and how many years of experience do they have? What are the two benchmarks that the {fund} uses to compare its performance? What are the sales charges and expenses for the Advisor Class and Class A shares of the {fund}? What are the risk statistics of the {fund} based on the three-year period? What are the price to book and price to earnings ratios of the {fund}? What is the {fund}’s view on the industrials sector? What is the {fund}’s view on the financials sector? What was the total return of the {fund} excluding sales charges for the first quarter of 2023? Which sector was the leading contributor to the {fund}’s absolute returns in the quarter? Which sector was the main detractor from the {fund}’s absolute returns in the quarter? What is the {fund}’s unmanaged benchmark and how did it perform in the reporting period? What are the {fund}’s fees and expenses? How has the {fund} performed in the past and what are the factors that affect its performance? What are the {fund}’s holdings and how are they diversified across sectors, industries, and countries? What are the {fund}’s portfolio characteristics and how do they compare to its benchmark? What are the {fund}’s policies and restrictions regarding redemptions, distributions, and voting rights? How does the {fund} manage its liquidity and leverage? What are the {fund}’s financial statements and notes and what information do they provide? How does the {fund} select and monitor its portfolio companies? What are the {fund}’s main competitors and how does it differ from them? What are the {fund}’s strengths and weaknesses? What are the {fund}’s opportunities and threats? What are the {fund}’s future plans and strategies? What are the {fund}’s future plans and strategies and how do they reflect the {fund}’s outlook on the market? How has the fund performed in the past years? What is the credit quality allocation of the {fund}? What are the sales charges and expenses for each share class? What should investors know before investing in the {fund}? What is the average life of the {fund}'s holdings?
+**Response**
+Sure, I can help you categorize these questions for indexing in Azure AI Search. Here are some suggested categories:
+
+### Fund Management
+- Who is the portfolio manager for franklin income fund?
+- Who is the {fund} manager for {fund}?
+- Who is the manager for {fund}?
+- Who is the investment manager for {fund}?
+- Who are part of the portfolio management team of {fund}?
+- Who are members of portfolio management in this {fund}?
+- Names of persons who are a part of portfolio management in this {fund}?
+- Who are the portfolio managers of the {fund} and how many years of experience do they have?
+- How long have they managed the {fund} and what are their credentials?
+
+### Fund Details
+- When was the {fund} created?
+- When was the {fund} incepted?
+- What was the {fund} inception date?
+- What is the {fund}’s inception date?
+- What is the ticker for this {fund}?
+- What is the objective of {fund}?
+- What is the investment philosophy of the {fund}?
+- What is the unique selling proposition of the {fund}?
+- What is the benchmark for {fund}?
+- What is the {fund}’s unmanaged benchmark and how did it perform in the reporting period?
+- What is the {fund}’s investment objective and strategy?
+- What are the {fund}’s policies and restrictions regarding redemptions, distributions, and voting rights?
+- What are the {fund}’s financial statements and notes and what information do they provide?
+- What is the average life of the {fund}'s holdings?
+
+### Fund Performance
+- Tell me who manages the {fund} and what's the performance YTD vs the index?
+- What's the performance of {fund}?
+- What is the performance of the A Share class of the fund?
+- What are the returns of the A share class?
+- What are the returns of the fund?
+- How does this performance compare to its index?
+- How did the {fund} perform in down markets?
+- What is the sharpe ratio?
+- What is the downside capture of the {fund}?
+- What is the {fund}’s view on the industrials sector?
+- What is the {fund}’s view on the financials sector?
+- What was the total return of the {fund} excluding sales charges for the first quarter of 2023?
+- How has the {fund} performed in the past and what are the factors that affect its performance?
+- How has the fund performed in the past years?
+- What are the returns of this {fund} for last 3 years?
+
+### Fund Holdings and Allocations
+- What were the sector allocations?
+- What are the sector allocations of this {fund}?
+- What are the top 10 holdings and what is the turnover?
+- What are the top holdings?
+- Give the top 10 holdings in a list format.
+- Give the top 10 holdings in bulleted format.
+- What are the {fund}’s top holdings in its equity portfolios?
+- What are the {fund}’s top sectors in its equity and fixed income portfolios?
+- What are the asset class returns of this {fund}?
+- What are the asset classes in this {fund}?
+- What is the turnover of the {fund}?
+- What is the {fund}’s turnover rate for the fiscal year?
+- What is the credit quality allocation of the {fund}?
+- What are the {fund}’s holdings and how are they diversified across sectors, industries, and countries?
+- What are the {fund}’s portfolio characteristics and how do they compare to its benchmark?
+
+### Fund Performance Drivers
+- What were the main contributors to performance, helped performance, for {fund}?
+- What were the contributors to the performance?
+- What were the key drivers of the {fund}’s performance?
+- Which sector was the leading contributor to the {fund}’s absolute returns in the quarter?
+- Which sector was the main detractor from the {fund}’s absolute returns in the quarter?
+- What are the drivers that hurt the {fund} performance as per the product commentary?
+
+### Fund Risks and Expenses
+- What are the risks of investing in this {fund}?
+- What are the main risks associated with investing in the {fund}?
+- What are the {fund}’s fees and expenses?
+- What are the sales charges and expenses for the Advisor Class and Class A shares of the {fund}?
+- What are the sales charges and expenses for each share class?
+- What are the risk statistics of the {fund} based on the three-year period?
+- What are the price to book and price to earnings ratios of the {fund}?
+
+### Fund Strategy and Outlook
+- What is the outlook?
+- What does the portfolio commentary say about the {fund} performance?
+- What is the {fund}’s view on the economic outlook?
+- What are the {fund}’s views on the economic outlook?
+- Summarize investment strategy for fund.
+- What is the {fund}’s investment objective and strategy?
+- What are the {fund}’s future plans and strategies?
+- What are the {fund}’s future plans and strategies and how do they reflect the {fund}’s outlook on the market?
+- Quote verbatim what the document talks about the outlook for equities.
+
+### Fund Comparison and Competitors
+- What are the two benchmarks that the {fund} uses to compare its performance?
+- What are the {fund}’s main competitors and how does it differ from them?
+- What are the {fund}’s strengths and weaknesses?
+- What are the {fund}’s opportunities and threats?
+
+### Fund Commentary and Additional Information
+- Tell me about {fund}.
+- I want to know about {fund}.
+- What all is there to know about this fund?
+- Help me with the morning star rating of this {fund}.
+- Give me more details about the holdings of the {fund}.
+- What should investors know before investing in the {fund}?
+
+I hope this categorization helps you create an efficient index in Azure AI Search. If you need any further assistance, feel free to ask!

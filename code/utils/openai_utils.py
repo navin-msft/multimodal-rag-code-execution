@@ -32,6 +32,15 @@ AZURE_OPENAI_MODEL_VISION = os.environ.get('AZURE_OPENAI_MODEL_VISION')
 OPENAI_API_BASE = f"https://{os.getenv('AZURE_OPENAI_RESOURCE')}.openai.azure.com/"
 AZURE_OPENAI_MODEL = os.environ.get('AZURE_OPENAI_MODEL')
 
+# added for reasoning model
+AZURE_OPENAI_ENDPOINT_OMODEL = os.environ.get('AZURE_OPENAI_ENDPOINT_OMODEL')
+AZURE_OPENAI_O_KEY = os.environ.get('AZURE_OPENAI_O_KEY')
+AZURE_OPENAI_OMODEL_API_VERSION = os.environ.get('AZURE_OPENAI_OMODEL_API_VERSION')
+OPENAI_OMODEL_API_BASE = f"https://{os.getenv('AZURE_OPENAI_O_RESOURCE')}.openai.azure.com/"
+AZURE_OPENAI_OMODEL = os.environ.get('AZURE_OPENAI_OMODEL')
+
+# End of add by NP
+
 AZURE_OPENAI_EMBEDDING_MODEL= os.environ.get('AZURE_OPENAI_EMBEDDING_MODEL')
 AZURE_OPENAI_EMBEDDING_API_BASE = f"https://{os.getenv('AZURE_OPENAI_EMBEDDING_MODEL_RESOURCE')}.openai.azure.com"
 AZURE_OPENAI_EMBEDDING_MODEL_RESOURCE_KEY = os.environ.get('AZURE_OPENAI_EMBEDDING_MODEL_RESOURCE_KEY')
@@ -83,8 +92,12 @@ def get_chat_completion(messages: List[dict], model = AZURE_OPENAI_MODEL, client
     print(f"\nCalling OpenAI APIs with {len(messages)} messages - Model: {model} - Endpoint: {oai_client._base_url}\n")
     return client.chat.completions.create(model = model, temperature = temperature, messages = messages, timeout=TENACITY_TIMEOUT)
 
+def get_chat_completion_omodel(messages: List[dict], model = AZURE_OPENAI_OMODEL, client = oai_client, temperature = 0.2):
+    print(f"\nCalling OpenAI APIs with {len(messages)} messages - Model: {model} - Endpoint: {oai_client._base_url}\n")
+    return client.chat.completions.create(model = model, temperature = temperature, messages = messages, timeout=TENACITY_TIMEOUT)
+
 @retry(wait=wait_random_exponential(min=1, max=30), stop=stop_after_attempt(5), retry_error_callback=lambda e: isinstance(e, requests.exceptions.HTTPError) and e.response.status_code == 429, after=after_log(logger, logging.ERROR))
-def get_chat_completion_with_json(messages: List[dict], model=AZURE_OPENAI_MODEL, client=oai_client, temperature=0.2):
+def get_chat_completion_with_json(messages: List[dict], model=AZURE_OPENAI_OMODEL, client=oai_client, temperature=0.2):
     try:
         print(f"\nCalling OpenAI APIs with {len(messages)} messages - Model: {model} - Endpoint: {oai_client._base_url}\n{bc.ENDC}")
         print(f"Messages: {messages}")
@@ -134,6 +147,35 @@ def ask_LLM_with_JSON(prompt, temperature = 0.2, model_info = None):
     result = get_chat_completion_with_json(messages, temperature = temperature, client=client)
 
     return result.choices[0].message.content
+
+# Added function for GPT 4o model for reasoning
+def ask_reasoning_LLM(prompt, temperature = 0.2, model_info = None):
+
+    oai_client = AzureOpenAI(
+        azure_endpoint = AZURE_OPENAI_ENDPOINT_OMODEL, 
+        api_key= AZURE_OPENAI_O_KEY,  
+        api_version= AZURE_OPENAI_OMODEL_API_VERSION,
+            )
+    
+    if model_info is not None:
+        client = AzureOpenAI(
+                azure_endpoint =  AZURE_OPENAI_ENDPOINT_OMODEL, 
+                api_key= AZURE_OPENAI_O_KEY,  
+                api_version= AZURE_OPENAI_OMODEL_API_VERSION,
+            )
+    else:
+        client = oai_client
+
+    messages = []
+    messages.append({"role": "system", "content": "You are a helpful assistant, who helps the user with their query."})     
+    messages.append({"role": "user", "content": prompt})     
+
+    result = get_chat_completion_omodel(messages, temperature = temperature, client=client)
+
+    return result.choices[0].message.content
+
+
+
 
 # Function to encode an image file in base64
 def get_image_base64(image_path):

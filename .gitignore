@@ -135,6 +135,10 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
+# Client samples
+.tutorials/sample_data/hdgdemo
+.tutorials/sample_data/um
+
 # mkdocs documentation
 /site
 

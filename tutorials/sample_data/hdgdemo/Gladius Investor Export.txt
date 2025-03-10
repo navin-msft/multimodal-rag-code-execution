@@ -1,0 +1,185 @@
+Gladius Investor Export	
+Internal_ID	171744
+Investor_ID	1
+Client_ID	
+External_ID	
+Fund_Code	GAWCFLP
+Investor_MasterAccount_ID	248163
+Investor_MasterAccount_External_ID	
+Investor_MasterAccount_Name	Blain Keating Fund Master LP
+Has_Beneficial_Owner	TRUE
+Beneficial_Owner_MasterAccount_ID	227970
+Beneficial_Owner_MasterAccount_External_ID	
+Beneficial_Owner_MasterAccount_Name	
+Investor_Name	Blain Keating Fund Master LP
+Eligibility	Accredited Investor,Qualified Purchaser
+New_Issue_Status	Unrestricted
+Erisa	
+SideLetter	FALSE
+SideLetterComment	
+SideLetterNavComment	
+DirectInvestor	FALSE
+InvestorGroup1	
+InvestorGroup2	
+InvestorGroup3	
+InvestorGroup4	
+InvestorGroup5	
+InvestorGroup6	
+InvestorGroup7	
+InvestorGroup8	
+InvestorGroup9	
+InvestorGroup10	
+InvestorGroup11	
+InvestorGroup12	
+InvestorGroup13	
+InvestorGroup14	
+InvestorGroup15	
+InvestorGroup16	
+InvestorGroup17	
+InvestorGroup18	
+InvestorGroup19	
+InvestorGroup20	
+PledgeAccount	FALSE
+pficRequired	FALSE
+RefId1	
+RefId2	
+RefId3	
+RefId4	
+RefId5	
+RefId6	
+RefId7	
+RefId8	
+RefId9	
+RefId10	
+RefId11	
+RefId12	
+FormPF	Private Funds
+FormPF_Beneficial_Owner	 
+FormPF_Comment	
+ModifiedDate	
+ModifiedBy	
+CoveredStatus	Not Covered 
+CFTC Comment	
+SidepocketEligible	
+SidepocketPct	
+AIFMD_Type	 
+OperaTag	 
+	
+Transaction	
+fundCode	GAWCFLP
+fundInternalId	3559
+transactionDate	45322
+transactionInternalId	5258949
+transactionExternalId	
+transactionType	Subscription
+investorInternalId	171744
+investorExternalId	
+investorName	Blain Keating Fund Master LP
+className	1-CB
+fundClassInternalId	41458
+allocationMethod	
+seriesPiInternalId	552311
+seriesPiExternalId	
+seriesPiName	1
+lotInternalId	3729219
+lotExternalId	
+lotNumber	1
+currency	USD
+entryType	Capital Entry
+capitalPct	
+shares	450
+amount	450000
+transferToInvestorInternalId	
+transferToInvestorExternalId	
+transferToInvestorName	
+transferToPartnerInternalId	
+transferToPartnerExternalId	
+transferToPartnerName	
+exchangeToClassName	
+exchangeToSeriesPIInternalId	
+exchangeToSeriesPIExternalId	
+exchangeToSeriesPIName	
+exchangeAtNetGrossCapital	
+externalEQIssueOriginalLotId	
+crystallizationMethod	 
+investorGroup1	
+investorGroup2	
+investorGroup3	
+investorGroup4	
+investorGroup5	
+investorGroup6	
+investorGroup7	
+investorGroup8	
+investorGroup9	
+investorGroup10	
+investorGroup11	
+investorGroup12	
+investorGroup13	
+investorGroup14	
+investorGroup15	
+investorGroup16	
+investorGroup17	
+investorGroup18	
+investorGroup19	
+investorGroup20	
+GladiusMaster	
+internal_id	248163
+external_id	
+row_linking_id	
+master_account_type	Investor
+entity_individual	Entity
+first_name	Blain Keating Fund Master LP
+middle_name	
+last_name	
+legal_entity_type	LP
+jurisdiction_of_org	United States
+jurisdiction_state	
+principal_place_of_business	United States
+principal_state	
+private_equity_master	No
+pep	No
+erisa_treatment	Non-Erisa
+modified_date	
+modified_by	
+w8_doc_received	
+w8_doc_last_received_date	
+w8_tax_classification	
+w8_other_tax_classification	
+w9_doc_received	No
+w9_doc_last_received_date	
+w9_tax_classification	 
+w9_other_tax_classification	
+tax_residence_1	United States
+tax_residence_state_1	 
+tax_id_1	
+tax_residence_2	 
+tax_residence_state_2	 
+tax_id_2	
+tax_residence_3	 
+tax_residence_state_3	 
+tax_id_3	
+tax_residence_4	
+tax_residence_state_4	 
+tax_id_4	
+disregarded_entity	No
+disregarded_entity_name	
+disregarded_entity_ein_ssn	
+disregarded_entity_address	
+address_internal_id	
+address_external_id	
+attn_to	
+company	
+address_1	123 Gable Ridge Lane
+address_2	
+address_3	
+city	Holly Springs
+state	NC
+zip	27540
+country	United States
+work_phone	
+home_phone	
+cell_phone	
+fax	
+email	
+email_cc	
+email_bcc	
